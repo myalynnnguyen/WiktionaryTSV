@@ -101,11 +101,3 @@ class TextAnalyzer():
     def print_all(self):
         self.print_frequency()
         self.print_tsv()
-            
-
-if __name__ == '__main__':
-    t = TextAnalyzer("vietnamese")
-    t.parse_text("người ta sao chuẩn bị họ tới kdjf ma mà sao chưa kdjf người ta", ngram=2)
-    t.print_frequency()
-    t.print_tsv()
-

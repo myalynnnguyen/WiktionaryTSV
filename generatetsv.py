@@ -43,7 +43,3 @@ def list_to_tsv(wordlist: Iterable[str], language: str) -> str:
                 print(e)
 
     return wordlist_tsv
-
-if __name__ == "__main__":
-    file_to_tsv("testlist.txt", "testlist_output.txt", "vietnamese")
-

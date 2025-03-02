@@ -71,7 +71,3 @@ def get_definition(word: str, language:str, wdefinition: WordDefinition = None) 
             wdefinition.add_sense(pos, definition)
     
     return wdefinition
-    
-
-if __name__=='__main__':
-    print(tsv_from_api("anh", "vietnamese"))
