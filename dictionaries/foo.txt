@@ -1,0 +1,1 @@
+This directory is for storing dictionaries retrieved through dictionary.make_dictionary
